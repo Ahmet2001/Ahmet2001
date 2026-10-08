@@ -1,65 +1,94 @@
-# Hi, I'm Ahmet (@Ahmet2001)
+<div align="center">
 
-**Founder & builder @ [Ethosoft](https://github.com/Ahmet2001)** — AI agents, health tech, robotics, language learning, and product experiments.
+# Hi, I'm Ahmet Rıfat Öztürk 👋
 
----
+### AI/ML Researcher · Systems Builder · Founder @ Ethosoft
 
-## What I build
+I work on **small language models, efficient inference, new model architectures, tokenization, agentic systems, and applied AI products**.
 
-| Area | Focus |
-|------|--------|
-| **AI & agents** | Browser automation, clinical analytics, bioinformatics, marketing agents |
-| **Health & bio** | Oncology data (DataMEDX2), BioDockX, EEG/video pipelines |
-| **EdTech** | Solvio — MindBricks language-learning platform |
-| **Robotics & space** | FTC Voltran, TUA lunar rover, LunaLocater, rover path planning |
-| **Consumer apps** | Lufora (plant care), GameFi, plant games |
+[![GitHub](https://img.shields.io/badge/GitHub-Ahmet2001-181717?style=flat-square&logo=github)](https://github.com/Ahmet2001)
+[![Ethosoft](https://img.shields.io/badge/Ethosoft-Research-0A66C2?style=flat-square)](https://ethosoft.org/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Ethosoft-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Ethosoft)
+
+</div>
 
 ---
 
-## Featured public projects
+## What I'm working on
 
-### AI, health & education
+- **Efficient language-model inference** — native runtimes, KV-cache efficiency, quantization, CUDA/Triton kernels
+- **Language-model research** — alternative architectures, routing, tokenization, future-signal learning
+- **Small language models** — Turkish SLMs, evidence-grounded reasoning, local/HPC training
+- **Agentic systems** — browser automation, research agents, content pipelines, tool orchestration
+- **Applied AI** — manufacturing, healthcare, robotics, marketing, and local-first AI products
 
-| Project | Description |
-|---------|-------------|
-| [**Mindbricks**](https://github.com/Ahmet2001/Mindbricks) | Solvio — AI language learning on MindBricks (React + API guides) |
-| [**DataMEDX2**](https://github.com/Ahmet2001/DataMEDX2) | Oncology clinical analytics & decision-support workspace |
-| [**BrowserAgent**](https://github.com/Ahmet2001/BrowserAgent) | AI marketing, content generation & Agent Studio panel |
-| [**HarvardHackhaton**](https://github.com/Ahmet2001/HarvardHackhaton) | BioDockX — protein retrieval, 3D viz & molecular docking |
-| [**ab-ihayat**](https://github.com/Ahmet2001/ab-ihayat) | Fine-tune Llama-3 on WhatsApp chats for personalized AI |
-| [**LunaLocater**](https://github.com/Ahmet2001/LunaLocater) | Vision-based localization for lunar navigation (FederNet) |
-
-### Robotics & space (Ethosoft / Voltran / TUA)
-
-| Project | Description |
-|---------|-------------|
-| [**TUA**](https://github.com/Ahmet2001/TUA) | Lunar rover A* + SAC planning, Ultracortex hardware |
-| [**VoltranScout**](https://github.com/Ahmet2001/VoltranScout) | FTC scout & analytics — [demo](https://voltran-scout.vercel.app) |
-| [**Voltran_Yaz-l-m_-rnekleri**](https://github.com/Ahmet2001/Voltran_Yaz-l-m_-rnekleri) | Voltran programming examples (C) |
-
-### Apps & bots
-
-| Project | Description |
-|---------|-------------|
-| [**Lufora**](https://github.com/Ahmet2001/Lufora) | AI plant care — grow journeys, gamification, health analysis |
-| [**B-d-k-Bot-Meets**](https://github.com/Ahmet2001/B-d-k-Bot-Meets) | Docker bot — anonymous Google Meet recorder |
-| [**gamefi-frontend**](https://github.com/Ahmet2001/gamefi-frontend) | GameFi web client |
-| [**Gamefi2**](https://github.com/Ahmet2001/Gamefi2) | GameFi prototype v2 |
+I enjoy working across the whole stack: **research idea → experiment → benchmark → runtime → product**.
 
 ---
 
-## Tech I use often
+## Featured research & systems
 
-`Python` · `TypeScript` · `React` · `Next.js` · `Docker` · `PyTorch` · `MindBricks` · `Vite` · `C/C++`
+| Project | What it explores |
+|---|---|
+| [**MercanRuntime**](https://github.com/Ahmet2001/MercanRuntime) | Native local inference stack for Mercan/NedoLM models with a portable `.mercan` format, C ABI, Architecture/Tokenizer SDKs, and an experimental Graph ABI |
+| [**RelationLM**](https://github.com/Ahmet2001/RelationLM) | Experimental LM architecture based on explicit anchor–partner relations, RelationLex tokenization, sparse routing, and custom Triton selection kernels |
+| [**ForesightLM**](https://github.com/Ahmet2001/ForesightLM) | Research on sentence-level future signals in small language models, calibration, reranking, and self-loop hard negatives |
+| [**NedoLM-pt**](https://github.com/Ahmet2001/NedoLM-pt) | Reproducibility code, tokenizer tooling, training/SFT scripts, and released artifacts for the NEDO Turkish SLM project |
+| [**RiskKV**](https://github.com/Ahmet2001/RiskKV) | Risk-aware heterogeneous KV-cache compression that preserves exact-critical context at higher fidelity |
+| [**QA-Research-SLM**](https://github.com/Ahmet2001/QA-research-SLM) | Small-model training workspace for evidence-grounded research reasoning, claim verification, structured outputs, and verifier-guided training |
+| [**SLMOrchestration**](https://github.com/Ahmet2001/SLMOrchestration) | Local model workspace for streaming Ollama/Hugging Face inference, model presets, attachments, and runtime controls |
+
+### Research highlight
+
+**Foresight Is Not Enough: Sentence-Level Future Signals, Self-Loop Hard Negatives, and the Calibration Gap in Small Language Models**
+
+[Ethosoft Research](https://ethosoft.org/papers/foresight-is-not-enough/) · [DOI: 10.21203/rs.3.rs-10331341/v1](https://doi.org/10.21203/rs.3.rs-10331341/v1)
 
 ---
 
-## Stats
+## Applied AI & products
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Ahmet2001&show_icons=true&theme=default&hide_border=true)
+| Project | Focus |
+|---|---|
+| [**BrowserAgent / Ethgent**](https://github.com/Ahmet2001/BrowserAgent) | Multi-agent orchestration for browser automation, research, social media, content creation, and tool-driven workflows |
+| [**MarketingStudio**](https://github.com/Ahmet2001/MarketingStudio) | Marketing toolkit for ad creatives, short-form video pipelines, local image generation, and social connectors |
+| [**CNCapp / SacFlow AI**](https://github.com/Ahmet2001/CNCapp) | AI-assisted DXF processing, nesting, manufacturing analysis, pricing, and PDF quotation workflows |
+| [**DataMEDX2**](https://github.com/Ahmet2001/DataMEDX2) | Oncology analytics, clinical decision-support experiments, and AI-assisted data-processing workflows |
+| [**TUA**](https://github.com/Ahmet2001/TUA) | Lunar-rover software experiments including path planning and autonomous navigation |
+| [**VoltranScout**](https://github.com/Ahmet2001/VoltranScout) | FTC scouting and analytics tooling |
 
 ---
 
-<p align="center">
-  <i>Most active work is under Ethosoft — private repos include Bidik MCP ecosystem, GameFi backend, and internal tooling.</i>
-</p>
+## Tech I use
+
+**AI / Research**
+
+`Python` · `PyTorch` · `Transformers` · `PEFT / QLoRA` · `Triton` · `CUDA` · `Hugging Face`
+
+**Systems**
+
+`C` · `C++` · `Rust` · `CMake` · `Linux` · `Docker`
+
+**Product / Backend**
+
+`FastAPI` · `Node.js` · `TypeScript` · `React` · `Vite` · `SQLite` · `Redis`
+
+---
+
+## GitHub stats
+
+<div align="center">
+
+![Ahmet's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ahmet2001&show_icons=true&hide_border=true&rank_icon=github)
+
+</div>
+
+---
+
+<div align="center">
+
+### Build the model. Measure it. Make it useful.
+
+Most of my current work is around **language-model research, efficient inference, and AI systems**.
+
+</div>
